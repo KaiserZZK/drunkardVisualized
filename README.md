@@ -1,7 +1,11 @@
 # drunkwardVisualized
 A p5.js project inspired by Homework 4 of COMSW 1004: Intro to Computer Science and Programming in Java at Columbia University. The goal is to reinterpret the prompt visually for visual learners
 
-Here's the orginal prompt:
+----view directly in p5.js editor:----
+https://editor.p5js.org/KaiserZZK/full/XITRG-ngN
+
+
+----Here's the orginal prompt:----
 
 The Drunkard’s (Random) Walk. Imagine you live on an infinite grid of streets where locations are represented as integer pairs (avenue,street). Negative numbers are okay in this example. Now consider a drunkard that randomly picks one of four directions at an intersection and then stumbles to the next intersection doing the same and so on. Write a class Drunkard to simulate this behavior given the drunkard’s initial position. Your Drunkard class should have as instance variables the drunkard’s current avenue (x location) and current street (y location). Your class should have a method called step( ) that moves the drunkard to the next randomly chosen adjacent intersection. Your class should have another method called fastForward(int steps) that takes an integer as a parameter (call it steps) and moves the drunkard steps intersections from his current location. Your class should have a method getLocation( ) that returns a String indicating the drunkard’s current location. Finally your class should have a method called howFar( ) that reports the drunkards distance in blocks from where he started calculated using the Manhattan distance metric.
 
